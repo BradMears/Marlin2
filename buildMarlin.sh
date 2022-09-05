@@ -16,7 +16,8 @@ OPERATION="--verify"
 #rm -rf ${BUILD_PATH}
 
 pushd ${MARLIN}
-
+cp ../../Brads_MMS_v2/Configuration.h .
+cp ../../Brads_MMS_v2/Configuration_adv.h .
 ${ARDUINO} --pref build.path=${BUILD_PATH} --board arduino:avr:mega:cpu=atmega2560 --verbose --preserve-temp-files ${OPERATION} Marlin.ino
 echo
 popd
