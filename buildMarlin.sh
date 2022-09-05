@@ -2,7 +2,7 @@
 # Build Marlin and upload it to the Mega
 
 
-BASE_DIR=/share/Marlin/Marlin-2.1.1
+BASE_DIR=/share/Marlin2
 MARLIN=${BASE_DIR}/Marlin-2.1.1/Marlin
 BUILD_PATH=${BASE_DIR}/artifacts
 
