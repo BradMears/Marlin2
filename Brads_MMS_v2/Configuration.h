@@ -685,9 +685,15 @@
         97.0, 97.0      \
     }
 #else
-#define DEFAULT_Kp 29.0
-#define DEFAULT_Ki 2.0
-#define DEFAULT_Kd 97.0
+// Default values for the default values
+//#define DEFAULT_Kp 29.0
+//#define DEFAULT_Ki 2.0
+//#define DEFAULT_Kd 97.0
+
+// Values reported by PID Autotune with part fan set at 80% and printer in the enclosure
+#define DEFAULT_Kp 30.94
+#define DEFAULT_Ki 1.80
+#define DEFAULT_Kd 133.08
 #endif
 #endif
 
