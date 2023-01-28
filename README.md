@@ -8,8 +8,8 @@ previous one without too much effort. Of course, that may not be true if I'm laz
 while the busy Marlin developers go changing things hither and yon. In that case, I may be in for a bit of work.
 
 - Download the distro and Configurations for the version you want.
-- Go to the Configurations example folder and find the one for the Wand Duplicator i3 2.1. This is the same as
-  the Monoproce Maker Select v2 and is our starting point.
+- Go to the Configurations example folder and find the one for the Wanhao Duplicator i3 2.1. This is the same as
+  the Monoprice Maker Select v2 and is our starting point.
 - Copy the Configuration.h and Configuration_adv.h from there to Brads_MMS_V2
 - Merge those files from the version of Marlin you're currently running onto the versions you just copied. The goal
   is to incorporate any new configuration settings while retaining your old ones.
